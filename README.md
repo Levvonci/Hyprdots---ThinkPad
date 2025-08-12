@@ -1,1 +1,1 @@
-# Hyprdots---ThinkPad
+# Yup, another Hyprland rice
