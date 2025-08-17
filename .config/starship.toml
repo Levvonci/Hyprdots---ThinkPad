@@ -17,7 +17,7 @@ add_newline = true
 disabled = true
 
 [character]
-success_symbol = " [](white)"
+success_symbol = " [](purple)"
 error_symbol = " [](red)"
 vicmd_symbol = "[  ](yellow)"
 
@@ -33,7 +33,7 @@ disabled = false
 style = "fg:white"
 
 [directory]
-format = " [ ](fg:purple)[ $path]($style) "
+format = " [$path]($style) "
 style = "fg:white"
 truncation_length = 4
 truncate_to_repo=true

@@ -1,0 +1,1 @@
+Currentl using catppuccin-mocha theme for sddm from catppuccin official repo

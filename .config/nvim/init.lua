@@ -1,6 +1,3 @@
-require("options")
-require("plugin_manager")
-require("keymaps")
-require("lsp")
-require("colors")
-
+require('config.options')
+require('config.keymaps')
+require('config.lazy')

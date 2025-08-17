@@ -2,9 +2,14 @@
     "layer": "top",
     "position": "top",
     "margin": "5px",
-    "modules-left": ["hyprland/workspaces", "tray"],
+    "modules-left": ["custom/lock", "hyprland/workspaces", "tray"],
     "modules-center": ["clock"],
     "modules-right": ["memory", "cpu", "network", "backlight", "pulseaudio", "battery"],
+    
+    "custom/lock":{
+        "on-click": "/home/lvnc/.config/wofi/wofi-power-menu.sh",
+        "format": "󰣇"
+    },
     "clock": {
         "format": "{:%H:%M}",
         "tooltip-format": "{:%A, %d %B %Y - %H:%M:%S}",
@@ -30,7 +35,7 @@
         "format-wifi": " {essid}",
         "format-ethernet": "󰈀 {ipaddr}",
         "format-disconnected": "󰤮 Disconnected",
-        "on-click": "~/.config/wofi-wifi-menu/wofi-network-manager.sh",
+        "on-click": "~/.config/wofi/wofi-wifi-menu.sh",
         "tooltip": false,
         "interval": 5
     },
